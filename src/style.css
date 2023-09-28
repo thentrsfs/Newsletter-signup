@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    background-color: hsl(235, 18%, 26%)
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 410px 400px;
+    text-align: left;
+    border-radius: 24px;
+    width: 850px;
+    white-space: wrap;
+}
+
+input {
+    width: 330px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid hsl(231, 7%, 60%);
+}
+
+input:hover {
+    border-color: hsl(234, 29%, 20%);
+}
+
+.img {
+    position: relative;
+    left: 30px;
+    padding: 10px;
+}
+
+.listP {
+    margin: 15px;
+}
+
+.list p {
+    margin: 15px;
+}
+
+.list {
+    margin-top: 35px;
+}
+
+
+header h1 {
+    font-size: 3em;
+    margin: 40px;
+    margin-left: 20px;
+}
+
+.firstDiv {
+    margin-left: 23px;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.icon {
+    position: relative;
+    top: 2px;
+    margin-right: 14px;
+    height: 17px;
+}
+
+.emailLabel {
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.firstBtn {
+    width: 330px;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 8px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+}
+
+button:hover {
+    background-color: hsl(4, 100%, 67%);
+    border-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+
+.successContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.successDiv {
+    display: inline-block;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.sucIcon {
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.secondBtn {
+    width: 330px;
+    height: 45px;
+    margin: 35px 0px 0px 70px;
+    border-radius: 8px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+}
+
+.sucHeader {
+    font-size: 3em;
+    margin: 20px 0px 20px 70px;
+}
+
+.sucP {
+    width: 340px;
+    margin-left: 70px;
+}
+
+.errorMsg {
+    color: hsl(4, 100%, 67%);
+    font-weight: 550;
+    font-size: 12px;
+    margin-left: 134px;
+}
+
+.errorInput {
+    border-color: hsl(4, 100%, 67%);
+    color: hsl(4, 100%, 67%);
+    background-color: hsl(4, 100%, 93%);
+}
